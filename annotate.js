@@ -9,5 +9,5 @@ module.exports = {
     name: function(){
         return namer.type.apply(namer, arguments);
     },
-    tree: require("./lib/tree");
+    tree: require("./lib/tree")
 };
