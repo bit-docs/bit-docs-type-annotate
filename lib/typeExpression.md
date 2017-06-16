@@ -1,15 +1,12 @@
-@typedef {String} documentjs.typeExpression TYPE-EXPRESSION
-@parent documentjs.tags
+@parent bit-docs-type-annotate/types
+@typedef {String} bit-docs-type-annotate/types/typeExpression TYPE-EXPRESSION
 
 @option {String}
 
-Represents 
-a [Google Closure type expression](https://developers.google.com/closure/compiler/docs/js-for-compiler#types). These
-produce [documentjs.process.typeData typeData].  They are used by [documentjs.tags.params], 
-[documentjs.tags.return], [documentjs.tags.option] and [documentjs.tags.module] to specify the shape of
-some data.
-
-
+Represents a [Google Closure type expression](https://developers.google.com/closure/compiler/docs/js-for-compiler#types).
+These produce [bit-docs-type-annotate/types/typeData typeData]. They are used by
+[bit-docs-js/tags/param], [bit-docs-js/tags/return], [bit-docs-js/tags/option]
+and [bit-docs-js/tags/module] to specify the shape of some data.
 
 @body
 
@@ -29,20 +26,8 @@ Examples:
 - Optional parameter - `{number=}`
 
 
-
 - Function Type - `{function(string, boolean)}`
 - Function Return Type - `{function(): number}`
 - Function this Type - `{function(this:Menu, string)}`
 - Function new Type - `{function(new:Menu, string)}`
 - Variable parameters - `{function(string, ...[number])}`
-
-
-
-
-
-
-
-
-
-
-
