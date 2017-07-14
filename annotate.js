@@ -10,7 +10,13 @@ var namer = require("./lib/namer");
  *
  * @body
  *
- * TBD
+ * Exports and object with properties:
+ * - `typeNameDescription`
+ * - `type`
+ * - `name`
+ * - `tree`
+ * 
+ * Which are utilities for doing `tnd` lookups.
  */
 module.exports = {
     typeNameDescription: require("./lib/typeNameDescription"),
