@@ -18,7 +18,7 @@ They are specified like:
 
     {{PROPERTY_NAME: TYPE, PROPERTY_NAME: TYPE}}
 
-The PROPERTY_NAME value sets the `name` property on the invidual
+The PROPERTY_NAME value sets the `name` property on the individual
 [bit-docs-type-annotate/types/valueData valueDatas].
 
 @option {bit-docs-type-annotate/types/valueData} [context] Represents the

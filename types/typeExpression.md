@@ -10,7 +10,8 @@ and [bit-docs-js/tags/module] to specify the shape of some data.
 
 @body
 
-The various supported types are documented [here](https://developers.google.com/closure/compiler/docs/js-for-compiler#types).
+The various supported types are documented
+[here](https://developers.google.com/closure/compiler/docs/js-for-compiler#types).
 
 Examples:
 

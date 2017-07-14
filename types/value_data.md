@@ -1,8 +1,7 @@
 @parent bit-docs-type-annotate/types
 @typedef {{}} bit-docs-type-annotate/types/valueData valueData
 
-Data related to a value in a [bit-docs-type-annotate/types/typeExpression
-type expression].
+Data related to a value in a [bit-docs-type-annotate/types/typeExpression type expression].
 
 @option {Array<bit-docs-type-annotate/types/typeData>} types The allowed
 types of the value. Multiple types can be specified like:
