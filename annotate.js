@@ -2,14 +2,21 @@ var typer = require("./lib/typer");
 var namer = require("./lib/namer");
 
 /**
- * @module {function} bit-docs-type-annotate
  * @parent plugins
+ * @module {Object} bit-docs-type-annotate
+ * @group bit-docs-type-annotate/types types
  *
  * @description Utilities for parsing closure type annotations.
  *
  * @body
  *
- * TBD
+ * Exports and object with properties:
+ * - `typeNameDescription`
+ * - `type`
+ * - `name`
+ * - `tree`
+ * 
+ * Which are utilities for doing `tnd` lookups.
  */
 module.exports = {
     typeNameDescription: require("./lib/typeNameDescription"),
